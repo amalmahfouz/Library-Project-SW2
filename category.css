@@ -1,0 +1,302 @@
+*{
+    font-size: 18px;
+}
+
+.loginback{
+    background-image: url("images/login7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+ 
+ }
+
+ .registerback{
+    background-image: url("images/login4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+ 
+ }
+ .text-center{
+    text-align: center;
+    color: rgb(235, 235, 235);
+}
+
+.login{
+    border: 1px solid gray;
+    color: rgb(255, 255, 255);
+    width: 40%;
+    margin: 10% auto;
+    padding: 1%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 2%;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-style: none;
+    height: 70%;
+}
+
+.register{
+    border: 1px solid gray;
+    color: rgb(255, 255, 255);
+    width: 31%;
+    margin-top: 7%;
+    padding: 1%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 2%;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-style: none;
+    height: 107%;
+}
+
+.login input ,.register input {
+    border-radius: 0.8rem;
+    height: 6%;
+    width: 48%;
+    padding: 4%;
+    border-style: none;
+    background: rgb(235, 235, 235);
+}
+
+.login label, .register label{
+    color: rgb(235, 235, 235);
+}
+
+.login label a{
+    color: rgb(235, 235, 235);
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.btn-brimary1{
+    border-style: none;
+    background-color: #D19A2D;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.8rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-left: 7rem;
+    width: 48%;
+    height: 39px;
+}
+.spase{
+    border-style: none;
+    padding: 1%; 
+}
+.btn-brimary1:hover{
+    background-color:rgb(235, 235, 235) ;    
+    color: #D19A2D;
+    cursor: pointer;
+}
+
+.register .btn-brimary1{
+    border-style: none;
+    background-color: #5271fd;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.8rem;
+
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-left: 7rem;
+    width: 48%;
+    height: 39px;
+}
+.success{
+    color: #2ed573;
+}
+.error{
+    color: #e35965;
+    margin-left: 20px;
+   margin-top: -70px;
+}
+.error1{
+    color: #e35965;
+    margin-left: -8px;
+   margin-top: -70px;
+}
+  .heading {
+    text-align: center;
+    padding: 4rem 0px;
+    margin-left: 44px;
+    margin-top: 20px;
+}
+.heading span {
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    background: rgba(175, 173, 185, 0.656);
+    border-radius: 0.5rem;
+    padding: 0.2rem 1rem;
+}
+
+/* Add Food Button */
+.btn-brimary {
+    background-color: var(--blue);
+    margin-left: 320px;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    padding: 1%;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+.btn-brimary:hover{
+    background-color:white ;  
+    color:var(--blue);
+}
+.btn-secondary {
+background-color: rgb(123, 237, 159);
+    color: black;
+    font-weight: bold;
+    padding: 2%;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    margin-bottom: 200px;
+    font-size: 15px;
+}
+
+.tbl-full {
+    width: 80%;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: grey;
+    font-variant: normal;
+    margin-left: 30px;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}.btn-secondary {
+    background-color: rgb(88 212 127 / 83%);
+    color: black;
+    font-weight: bold;
+    padding: 8%;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+.btn-danger {
+    background-color: rgb(242 2 11 / 59%);
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+    padding: 2%;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    
+}
+table tr th {
+    text-align: left;
+    border-bottom: 1px solid #32548945;
+    padding: 10px 0;
+    background-color: #32548945;
+    text-align: center
+
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    padding: 10px 0;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    padding: 15px 0;
+    padding-right: 15px;
+    font-weight: bold;
+    background-color: #f2f4f7;
+    text-align: center
+}
+.tbltd{
+        display: table-cell;
+        vertical-align: inherit;
+        padding: 15px 0;
+        padding-right: 15px;
+        font-weight: bold;
+        text-align: start;
+        background-color:white !important;
+}
+.inputText{
+    width: 300px;
+    height: 40px;
+}
+.inputFile{
+    height: 100%;
+    font-size: 16px;
+}
+.inputRadio{
+    margin-left: 60px;
+}
+.footer{
+    background:var(--blue);
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;  
+  }
+    .wrapper{
+    /* border: 1px solid black;*/
+     padding: 1%;
+     width: 80%;
+     margin: 0 auto;
+ }
+  .wrapper{
+     padding: 1%;
+     width: 80%;
+     margin: 0 auto;
+ }
+ .text-center{
+     text-align: center;
+ }
+ h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: var(--blue);
+}
+form{
+    margin-left:180px;
+}
+.btnAdd{
+    background-color: var(--blue);
+    color: white;
+    font-weight: bold;
+    padding: 2%;
+    text-decoration: none;
+    border-radius: 0.5rem;  
+
+}
